@@ -178,7 +178,26 @@ main{
 }
 
 
+/* footer section */
+footer{
+    width: 1440px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF4E7;
+    
+    margin: 0px 30px;
 
+
+}
+footer p{
+    color: #424242;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-top: 15px;
+}
 
 
 /* responsive media */
@@ -214,6 +233,15 @@ main{
         max-width: 300px;
         margin-left: 10%;
     }
+    footer{
+        width: 85%;
+     
+    }
+    footer p{
+        font-size: .9rem;
+        position: relative;
+        bottom: 7px;
+    }
 
     
 }
@@ -232,6 +260,14 @@ main{
     }
     .feature-img img{
         width: 100%;
+    }
+    footer{
+        width: 85%;
+     
+        margin-left: 70px;
+    }
+    footer p{
+        font-size: .9rem;
     }
 
     
